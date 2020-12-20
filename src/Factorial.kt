@@ -12,7 +12,7 @@ fun main() {
     if (res == null) {
         System.exit(0);
     }
-    var number = Integer.parseInt(res);
-    var a = factorial(number);
+    val number = Integer.parseInt(res);
+    val a = factorial(number);
     showMessageDialog(null, "Результат: " + Math.round(a), "Факториал", PLAIN_MESSAGE);
 }
